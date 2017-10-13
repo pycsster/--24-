@@ -1,0 +1,99 @@
+
+<view class="top">
+
+    <view class="toptitle">
+    
+    <text>{{alldata.dahan.title}}</text>
+    <text class='dot'></text>
+  
+    </view>
+
+</view>
+
+
+<view class="shiju">
+  <ul>
+        <li>{{alldata.dahan.shiju[0] }}</li>
+        <li>{{alldata.dahan.shiju[1]}}</li>
+        <li>{{alldata.dahan.shiju[2]}}</li>
+        <li>{{alldata.dahan.shiju[3]}}</li>
+</ul>
+
+</view>
+
+<view class="imgs">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502215969473&di=9fa44ec36a9225812b8cf9cc839a5ea9&imgtype=0&src=http%3A%2F%2Fp4.qhimg.com%2Ft014af0797c1786ca2c.jpg"></image>
+</view>
+
+
+<view class="main">
+
+    <text class="title">知·我</text>
+    <view class="text">
+    
+    {{alldata.dahan.jieshao}}
+
+</view>
+
+</view>
+
+
+
+
+<view class="main">
+
+    <text class="title">习俗</text>
+    <view class="text">
+  
+   {{alldata.dahan.xishu}}
+   
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">美食</text>
+    <view class="text">
+    
+   {{alldata.dahan.meishi}}
+
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">宜忌</text>
+    <view class="text">
+    {{alldata.dahan.yiji}}
+    
+</view>
+
+</view>
+
+
+
+
+<view class="pic" bindtap='toindex'>
+    <text>主页</text>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

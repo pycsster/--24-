@@ -1,0 +1,99 @@
+
+<view class="top">
+
+    <view class="toptitle">
+    
+    <text>{{alldata.xiaoshu.title}}</text>
+    <text class='dot'></text>
+  
+    </view>
+
+</view>
+
+
+<view class="shiju">
+  <ul>
+        <li>{{alldata.xiaoshu.shiju[0] }}</li>
+        <li>{{alldata.xiaoshu.shiju[1]}}</li>
+        <li>{{alldata.xiaoshu.shiju[2]}}</li>
+        <li>{{alldata.xiaoshu.shiju[3]}}</li>
+</ul>
+
+</view>
+
+<view class="imgs">
+  <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2104807209,2625618628&fm=26&gp=0.jpg"></image>
+</view>
+
+
+<view class="main">
+
+    <text class="title">知·我</text>
+    <view class="text">
+    
+    {{alldata.xiaoshu.jieshao}}
+
+</view>
+
+</view>
+
+
+
+
+<view class="main">
+
+    <text class="title">习俗</text>
+    <view class="text">
+  
+   {{alldata.xiaoshu.xishu}}
+   
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">美食</text>
+    <view class="text">
+    
+   {{alldata.xiaoshu.meishi}}
+
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">宜忌</text>
+    <view class="text">
+    {{alldata.xiaoshu.yiji}}
+    
+</view>
+
+</view>
+
+
+
+
+<view class="pic" bindtap='toindex'>
+    <text>主页</text>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/jieqi/jieqi",
+    "pages/chunfen/chunfen",
+    "pages/lichun/lichun",
+    "pages/yushui/yushui",
+    "pages/jingzhe/jingzhe",
+    "pages/qingming/qingming",
+    "pages/guyu/guyu",
+    "pages/lixia/lixia",
+    "pages/xiaoman/xiaoman",
+    "pages/mangzhong/mangzhong",
+    "pages/xiazhi/xiazhi",
+    "pages/xiaoshu/xiaoshu",
+    "pages/dashu/dashu",
+    "pages/liqiu/liqiu",
+    "pages/chushu/chushu",
+    "pages/bailu/bailu",
+    "pages/qiufen/qiufen",
+    "pages/hanlu/hanlu",
+    "pages/shuangjiang/shuangjiang",
+    "pages/lidong/lidong",
+    "pages/xiaoxue/xiaoxue",
+    "pages/daxue/daxue",
+    "pages/dongzhi/dongzhi",
+    "pages/xiaohan/xiaohan",
+    "pages/dahan/dahan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "二十四节气",
+    "navigationBarTextStyle": "black"
+  }
+}

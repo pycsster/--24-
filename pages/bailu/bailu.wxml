@@ -1,0 +1,99 @@
+
+<view class="top">
+
+    <view class="toptitle">
+    
+    <text>{{alldata.bailu.title}}</text>
+    <text class='dot'></text>
+  
+    </view>
+
+</view>
+
+
+<view class="shiju">
+  <ul>
+        <li>{{alldata.bailu.shiju[0] }}</li>
+        <li>{{alldata.bailu.shiju[1]}}</li>
+        <li>{{alldata.bailu.shiju[2]}}</li>
+        <li>{{alldata.bailu.shiju[3]}}</li>
+</ul>
+
+</view>
+
+<view class="imgs">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502810500&di=056e7545db1288cecc4cfcf2772561b4&imgtype=jpg&er=1&src=http%3A%2F%2Fimg1.ph.126.net%2FFWR6KdjYZ4uCHsnKjhtvww%3D%3D%2F853150654510090309.jpg"></image>
+</view>
+
+
+<view class="main">
+
+    <text class="title">知·我</text>
+    <view class="text">
+    
+    {{alldata.bailu.jieshao}}
+
+</view>
+
+</view>
+
+
+
+
+<view class="main">
+
+    <text class="title">习俗</text>
+    <view class="text">
+  
+   {{alldata.bailu.xishu}}
+   
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">美食</text>
+    <view class="text">
+    
+   {{alldata.bailu.meishi}}
+
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">宜忌</text>
+    <view class="text">
+    {{alldata.bailu.yiji}}
+    
+</view>
+
+</view>
+
+
+
+
+<view class="pic" bindtap='toindex'>
+    <text>主页</text>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

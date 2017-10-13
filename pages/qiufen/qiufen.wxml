@@ -1,0 +1,99 @@
+
+<view class="top">
+
+    <view class="toptitle">
+    
+    <text>{{alldata.qiufen.title}}</text>
+    <text class='dot'></text>
+  
+    </view>
+
+</view>
+
+
+<view class="shiju">
+  <ul>
+        <li>{{alldata.qiufen.shiju[0] }}</li>
+        <li>{{alldata.qiufen.shiju[1]}}</li>
+        <li>{{alldata.qiufen.shiju[2]}}</li>
+        <li>{{alldata.qiufen.shiju[3]}}</li>
+</ul>
+
+</view>
+
+<view class="imgs">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502216868567&di=6d73e262471dcc315bbe2597f646ebff&imgtype=0&src=http%3A%2F%2Fs6.sinaimg.cn%2Fmw690%2F001khehSzy6MghzUEfja5%26690"></image>
+</view>
+
+
+<view class="main">
+
+    <text class="title">知·我</text>
+    <view class="text">
+    
+    {{alldata.qiufen.jieshao}}
+
+</view>
+
+</view>
+
+
+
+
+<view class="main">
+
+    <text class="title">习俗</text>
+    <view class="text">
+  
+   {{alldata.qiufen.xishu}}
+   
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">美食</text>
+    <view class="text">
+    
+   {{alldata.qiufen.meishi}}
+
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">宜忌</text>
+    <view class="text">
+    {{alldata.qiufen.yiji}}
+    
+</view>
+
+</view>
+
+
+
+
+<view class="pic" bindtap='toindex'>
+    <text>主页</text>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

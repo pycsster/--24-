@@ -1,0 +1,99 @@
+
+<view class="top">
+
+    <view class="toptitle">
+    
+    <text>{{alldata.dongzhi.title}}</text>
+    <text class='dot'></text>
+  
+    </view>
+
+</view>
+
+
+<view class="shiju">
+  <ul>
+        <li>{{alldata.dongzhi.shiju[0] }}</li>
+        <li>{{alldata.dongzhi.shiju[1]}}</li>
+        <li>{{alldata.dongzhi.shiju[2]}}</li>
+        <li>{{alldata.dongzhi.shiju[3]}}</li>
+</ul>
+
+</view>
+
+<view class="imgs">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502810908&di=aa742d9ecbdbcea1f63dc55773491e45&imgtype=jpg&er=1&src=http%3A%2F%2Fimgbdb2.bendibao.com%2Ffsbdb%2F201412%2F22%2F20141222134505_37917.jpg"></image>
+</view>
+
+
+<view class="main">
+
+    <text class="title">知·我</text>
+    <view class="text">
+    
+    {{alldata.dongzhi.jieshao}}
+
+</view>
+
+</view>
+
+
+
+
+<view class="main">
+
+    <text class="title">习俗</text>
+    <view class="text">
+  
+   {{alldata.dongzhi.xishu}}
+   
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">美食</text>
+    <view class="text">
+    
+   {{alldata.dongzhi.meishi}}
+
+</view>
+
+</view>
+
+
+<view class="main">
+
+    <text class="title">宜忌</text>
+    <view class="text">
+    {{alldata.dongzhi.yiji}}
+    
+</view>
+
+</view>
+
+
+
+
+<view class="pic" bindtap='toindex'>
+    <text>主页</text>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
